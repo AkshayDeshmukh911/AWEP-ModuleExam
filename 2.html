@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example.2</title>
+    <style>
+        .creatForm{
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        input[type=text],[type=password],[type=email]{
+padding: 4px;
+height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="creatForm" >
+        <form>
+            <div style="justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(blue,black);
+           border:black solid;
+           height: 300px;
+           width: 300px;
+           padding: 10px;">
+           <div style="font-size: 32px;text-align: center; color: red; font-family: 'Courier New', Courier, monospace;">Login</div>
+                <div style="font-size: 24px; margin-top: 6px; margin-bottom: 8px;">Username</div>
+                <input type="text" id="id1" placeholder="Username" required/>
+                
+                <div style="font-size: 24px; margin-bottom: 8px;">Password</div>
+                <input type="password" id="id2" placeholder="Password" required/>
+                
+                <div style="font-size: 24px; margin-bottom: 8px;">Email</div>
+                <input type="email" id="id3" placeholder="email" required/>
+
+            <div> 
+                <a href="1.html"><button onclick="submithere()" 
+                style="background: green; 
+                font-size: 22px; 
+                align-items: center;
+                margin-top: 12px;">Submit</button></a>
+            </div>
+
+            <div id="submitIt">
+
+            </div>
+
+
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
